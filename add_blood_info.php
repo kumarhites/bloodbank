@@ -98,6 +98,7 @@
         rel="stylesheet">
         <!-- icon -->
         <link rel="shortcut icon" href="./assets/images/hand-white.svg" type="image/x-icon">
+        <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
     <title>Add Blood Info</title>
 </head>
 
@@ -106,8 +107,8 @@
 <span class="position-absolute trigger"><!-- hidden trigger to apply 'stuck' styles --></span>
     <nav class="navbar navbar-expand-sm sticky-top navbar-light py-4">
         <div class="container">
-            <a class="navbar-brand" href="index.php">
-                <img src="./assets/images/hand-red.svg" alt="" width="50px" draggable="false"></a>
+        <a class="navbar-brand" href="index.php" style="font-family: 'Montserrat'; font-size: 24px; font-weight: 700; color: #222;">
+                <img src="./assets/images/hand-red.svg" alt="" width="50px" draggable="false">&emsp;SourceRed</a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar1">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -120,7 +121,7 @@
                         <a class="nav-link" href="view_available_blood_samples.php">Blood Samples</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
+                        <a class="nav-link" href="#contact">Contact Us</a>
                     </li>
                     <!-- <li class="nav-item active">
                         <a class="nav-link" href="#">Dashboard</a>
@@ -139,7 +140,7 @@
                     </a>
                     <div class="dropdown-menu">
                     <!-- <a href="orders.php" class="dropdown-item">Appointments</a> -->
-                    <a href="#" class="dropdown-item">View Requests</a>
+                    <a href="hospita_dashboard.php" class="dropdown-item">View Requests</a>
                     <a href="add_blood_info.php" class="dropdown-item">Add Blood Info.</a>
                     <a href="logout.php" class="dropdown-item">Logout</a>
                     <!-- <a href="../examples/register.html" class="dropdown-item">Register</a> -->
@@ -213,20 +214,35 @@
                                      
                     </div>
 
-                    <button class="btn btn-danger btn-lg btn-block mt-5" type="submit" name="submit">Submit</button>
+                    <button class="btn btn-danger btn-lg btn-block mt-5 mb-5 " type="submit" name="submit">Submit</button>
                 </form>
             </div>
     </div>
     </main>
-
-    <footer class="my-5 pt-5 text-muted text-center text-small">
-        <p class="mb-1">&copy; 2020 Blood Bank</p>
-        <ul class="list-inline">
-            <li class="list-inline-item"><a href="#">Privacy</a></li>
-            <li class="list-inline-item"><a href="#">Terms</a></li>
-            <li class="list-inline-item"><a href="#">Support</a></li>
-        </ul>
-    </footer>
+<!-- Footer -->
+<footer class="page-footer font-small bg-danger pt-4 text-center" id="contact">
+  <div class="container-fluid text-center text-md-left container">
+    <div class="row">
+      <div class="col-md-12 mt-md-0 mt-3">
+        <h5 class="font-weight-bold text-light" style="font-size: 24px;">SourceRed</h5>
+        <span> 
+          <a href="" class="text-uppercase text-light mr-3"><i class="lab la-google-plus-g la-2x"></i></a> 
+          <a href="" class="text-uppercase text-light mr-3"><i class="lab la-facebook la-2x"></i></a> 
+          <a href="" class="text-uppercase text-light mr-3"><i class="lab la-instagram la-2x"></i></a> 
+          <a href="" class="text-uppercase text-light mr-3"><i class="lab la-linkedin-in la-2x"></i></a> 
+          <a href="" class="text-uppercase text-light mr-3"><i class="lab la-twitter la-2x"></i></a><br>
+          <a href="" class="text-uppercase  text-light mr-3" style="font-size: 24px; text-decoration: none;"><i class="las la-phone "></i>+91 7004312549</a>
+        </span>
+        <p class="text-light">SourceRed Blood Bank is aimed at promoting the awareness of blood donation among the public. It is committed to stay ahead of all linguistic-rational-religious-political differences and shall be fully focusing its objectives in health care activities.</p>
+      </div>
+      <hr class="clearfix w-100 d-md-none pb-3">
+    </div>
+  </div>
+  <div class="footer-copyright text-center py-3 text-light" style="color: white; font-size: 20px; text-decoration: none;"> Every Drop Matters. 
+    <a href="https://sourcered.epizy.com/" style="color: white; font-size: 20px;"><i class="las la-tint"></i> SourceRed</a>
+  </div>
+</footer>
+<!-- Footer -->
     </div>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"
         integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous">

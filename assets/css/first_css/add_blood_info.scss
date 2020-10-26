@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sticky-top {
+    transition: all 0.25s ease-in;
+    color: white;
+}
+
+/* style for when sitcky is applied */
+.stuck .sticky-top {
+    background-color: rgb(255, 255, 255) !important;
+    box-shadow: 10px 3px 6px lavender;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    // color: yellowgreen;
+}
+.navbar{
+    background-color: transparent;
+}

@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.sticky-top {
+  -webkit-transition: all 0.25s ease-in;
+  transition: all 0.25s ease-in;
+  color: white;
+}
+
+/* style for when sitcky is applied */
+.stuck .sticky-top {
+  background-color: white !important;
+  -webkit-box-shadow: 10px 3px 6px lavender;
+          box-shadow: 10px 3px 6px lavender;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+}
+
+.navbar {
+  background-color: transparent;
+}
+/*# sourceMappingURL=add_blood_info.css.map */

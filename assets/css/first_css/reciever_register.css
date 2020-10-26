@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #d85e5e;
+}
+
+.card {
+  width: 80%;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-box-shadow: 10px 10px 6px #b34f4f;
+          box-shadow: 10px 10px 6px #b34f4f;
+}
+
+.back_arrow {
+  font-size: 60px;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: 45%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .bg-txt {
+    font-size: 300px;
+    font-weight: 700;
+    font-family: 'Roboto';
+    color: #eb7c7c;
+    text-shadow: 10px 10px 30px #df4b4b;
+  }
+  .back_arrow {
+    display: none;
+  }
+}
+/*# sourceMappingURL=reciever_register.css.map */

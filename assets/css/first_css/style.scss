@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.preloader{
+    display: none;
+    background: #E72C3B;
+    height: 100vh;
+    .help-hands{
+       height: 200px;
+       width: 200px;
+    }
+    .preload-text{
+        font-size: large;
+        color: aliceblue;
+        font-weight: 600;
+        font-family: 'Montserrat', sans-serif;
+    }
+}
+.sticky-top {
+    transition: all 0.25s ease-in;
+    color: white;
+}
+
+/* style for when sitcky is applied */
+.stuck .sticky-top {
+    background-color: rgb(255, 255, 255) !important;
+    box-shadow: 10px 3px 6px lavender;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    // color: yellowgreen;
+}
+.navbar{
+    background-color: transparent;
+}
+.login{
+    font-weight: 700;
+}
+.section1{
+    height: 50vh;
+}
+.hero-img{
+    position: absolute;
+    left: 10px;
+    z-index: -1;
+    top: 0%;
+}
+.hero-txt{
+    font-family: 'Montserrat';
+    font-size: 45px;
+    font-weight: 700;
+    top: 50%;
+    position: relative;
+}
+.intro-txt{
+    font-family: 'Roboto';
+    // font-weight: 700;
+    font-size: 20px;
+}
+.link-sample{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    border: 1px solid #ff5e6b;
+    // background-color: #ff3d4d3b; ;
+}
+.section2{
+    height: 85vh;
+    background-color: #f7f7f7;
+    h1{
+        font-size: 24px;
+        font-family: 'Roboto';
+        font-weight: 600;
+    }
+}
+table{
+    font-family: 'Roboto Slab';
+}
+// desktop k lie niche dena h css
+@media (min-width: 768px){
+    .hero-img{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .hero-txt{
+        font-family: 'Montserrat';
+        font-size: 78px;
+    }
+    .intro-txt{
+        font-family: 'Roboto';
+        font-weight: 600;
+        font-size: 24px;
+    }
+    .section2{
+        // z-index: 1;
+        // background-image: url(../../images/section-bgbg.jpg);
+        // background-repeat: no-repeat;
+        // background-size: cover;
+        background-color: transparent;
+    }
+    .section1{
+        height: 80vh;
+    }
+}

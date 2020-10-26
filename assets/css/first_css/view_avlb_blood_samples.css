@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header-text {
+  font-family: 'Montserrat';
+  font-weight: 700;
+}
+
+.sticky-top {
+  -webkit-transition: all 0.25s ease-in;
+  transition: all 0.25s ease-in;
+  color: white;
+}
+
+/* style for when sitcky is applied */
+.stuck .sticky-top {
+  background-color: white !important;
+  -webkit-box-shadow: 10px 3px 6px lavender;
+          box-shadow: 10px 3px 6px lavender;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+}
+
+.navbar {
+  background-color: transparent;
+}
+
+.section2 .bld-grp {
+  background: #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100%;
+  overflow: hidden;
+  width: 80%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.section2 .bld-grp h6 {
+  opacity: .6;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.section2 .bld-grp h2 {
+  letter-spacing: 1px;
+  margin: 10px 0;
+}
+
+.preview {
+  background: #e40046;
+  color: #fff;
+  padding: 30px;
+  width: 250px;
+  position: relative;
+}
+
+.preview a {
+  color: #fff;
+  font-size: 20px;
+  opacity: .6;
+  margin-top: 30px;
+  text-decoration: none;
+}
+
+.preview h2 {
+  font-size: 75px;
+}
+
+.info {
+  padding: 30px;
+  position: relative;
+  width: 100%;
+}
+
+.info p {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.unit_request {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  text-align: right;
+  width: 200px;
+  -webkit-box-shadow: 10px, 10px 6px black;
+          box-shadow: 10px, 10px 6px black;
+}
+
+.btn-request {
+  background: #e40046;
+  border: 1px solid transparent;
+  -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 16px;
+  position: absolute;
+  padding: 10px 20px;
+  bottom: 30px;
+  right: 30px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.btn-request :hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .bld-grp {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 80%;
+  }
+  .preview {
+    width: 100%;
+  }
+  .preview h2 {
+    margin: 10px 0 0;
+    font-size: 50px;
+  }
+  .preview small {
+    margin-top: 10px;
+    font-family: 'Lato';
+  }
+  .info h2 {
+    margin-top: 20px;
+  }
+  .info p {
+    margin-bottom: 50px;
+  }
+  .btn-request {
+    padding: 10px 15px;
+    float: right;
+    position: relative;
+    font-size: 14px;
+    top: 10px;
+    left: 10px;
+  }
+  .section2 {
+    left: 0%;
+  }
+  .section1 {
+    margin-bottom: 80px;
+    margin-top: 50px;
+  }
+  .unit_request {
+    position: absolute;
+    top: 208px;
+    left: 22px;
+    width: 159px;
+  }
+}
+/*# sourceMappingURL=view_avlb_blood_samples.css.map */
